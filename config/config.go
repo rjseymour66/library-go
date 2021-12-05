@@ -36,9 +36,9 @@ func initConfig(fileName string, addtionalDirs []string) (err error) {
 	// Watch the config for changes
 	viper.WatchConfig()
 
-	// return nil because if execution gets this far, the
+	// return err because if execution gets this far, the
 	// initConfig function was successful
-	return nil
+	return err
 }
 
 // The following functions return config values that
