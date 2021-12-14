@@ -25,7 +25,7 @@ type ErrorResponse struct {
 // Error codes
 const (
 	ErrorCodeInternal           = 0
-	ErroCodeInvalidJSONBody     = 30
+	ErrorCodeInvalidJSONBody    = 30
 	ErrorCodeInvalidCredentials = 201
 	ErrorCodeEntityNotFound     = 404
 	ErrorCodeValidation         = 500

@@ -1,0 +1,17 @@
+# HTTP server configuration
+
+[http]
+
+server_address: ":8080"
+
+read_timeout = "60s"
+write_timeout = "60s"
+
+# Database configuration 
+
+[database]
+
+connection_string = "host=localhost port=5432 user=postgres password=password dbname=library_db sslmode=disable"
+max_idle_connections = 5
+max_open_connections = 20
+connection_max_lifetime = "60s"
